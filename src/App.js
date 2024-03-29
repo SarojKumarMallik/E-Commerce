@@ -20,15 +20,15 @@ function App() {
           <Route path="/" element={<Shop />} />
           <Route
             path="/mens"
-            element={<Shopcatagorie banner={men_banner} Catagory="men" />}
+            element={<Shopcatagorie banner={men_banner} category="men" />}
           />
           <Route
             path="/womens"
-            element={<Shopcatagorie banner={women_banner} Catagory="Women" />}
+            element={<Shopcatagorie banner={women_banner} category="women" />}
           />
           <Route
             path="/kids"
-            element={<Shopcatagorie banner={kids_banner} Catagory="Kids" />}
+            element={<Shopcatagorie banner={kids_banner} category="kid" />}
           />
           <Route path="/products" element={<Product />}>
             {/* Adjusted nested route definition */}

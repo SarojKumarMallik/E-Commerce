@@ -31,7 +31,6 @@ function App() {
             element={<Shopcatagorie banner={kids_banner} category="kid" />}
           />
           <Route path="/products" element={<Product />}>
-            {/* Adjusted nested route definition */}
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/cart" element={<Cart />} />

@@ -4,6 +4,7 @@ import Breadcrum from '../Breadcrums/Breadcrum';
 import { ShopContext } from '../Components/Context/ShopContext';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import DiscriptionBox from '../Components/DiscriptionBox/DiscriptionBox';
+import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
 
 
 
@@ -18,6 +19,7 @@ const Product = () => {
             <Breadcrum product={product} />
             <ProductDisplay product={product} />
             <DiscriptionBox />
+            <RelatedProducts />
         </div>
     )
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
 
             <div className="cart-icon-pg">
                 <Link to='/login'><button>Login</button></Link>
-                <Link to='/cart'><img src={cart_icon} alt="" /></Link>
+                <Link to='/cart'><img src={cart_icon} alt="" className='cart-icon-img' /></Link>
                 {/* Replace hardcoded cart count with dynamic value */}
                 <div className="cart-icon-count">{getTotalCartItems()}</div>
             </div>

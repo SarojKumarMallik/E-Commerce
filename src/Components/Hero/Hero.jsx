@@ -11,7 +11,7 @@ const Hero = () => {
                 <h2> New Arrival Only</h2>
                 <div>
                     <div className="hand-icon">
-                        <p>New</p>
+                  <p>New</p>
                         <img src={handicon} alt="" />
                     </div>
                     <p>Collection</p>
@@ -20,11 +20,10 @@ const Hero = () => {
                 <div className="hero-latest-btn">
                     <div>Try Latest Collection</div>
                     <img src={arrow_icon} alt="" />
-
                 </div>
             </div>
             <div className="Hero-right">
-                <img src={hero_image} alt="" />
+                <img src={hero_image} alt=""/>
             </div>
         </div>
     )

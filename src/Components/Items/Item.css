@@ -1,8 +1,9 @@
 .Item {
-  width: 350px;
+  width: 100%;
 }
 .Item p {
   margin: 6px 0px;
+  width: 90%;
 }
 .item_prices {
   display: flex;
@@ -23,4 +24,14 @@
 .Item :hover {
   transform: scale(1.05);
   transition: 06s;
+}
+@media only screen and ( max-width: 600px){
+  .Item {
+    width: 100%;
+   margin-left: 30px; 
+  }
+  .Item p {
+    margin: 6px 0px;
+    width: 82%;
+  }
 }

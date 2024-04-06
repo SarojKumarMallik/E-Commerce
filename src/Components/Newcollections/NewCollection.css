@@ -4,6 +4,7 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 100px;
+  padding-left: 13px;
 }
 
 .NewCollections h1 {
@@ -22,4 +23,25 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 50px;
   gap: 30px;
+}
+@media only screen and ( max-width: 600px){
+  .Collections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .NewCollections{
+    overflow: hidden;
+  }
+  .NewCollections h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .NewCollections hr {
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    background: #252525;
+  }
 }

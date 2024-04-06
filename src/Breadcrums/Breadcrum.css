@@ -5,6 +5,15 @@
   color: #5e5e5e;
   font-size: 16px;
   font-weight: 600;
-  margin: 60px 170px;
+  margin: 60px 30px;
   text-transform: capitalize;
+}
+@media only screen and ( max-width: 600px){
+ .breadcrum{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin:20px 0px;
+ }
 }

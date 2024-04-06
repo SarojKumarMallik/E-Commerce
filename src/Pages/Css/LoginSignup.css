@@ -1,16 +1,15 @@
 .LoginSignup {
   width: 100%;
-  height: 80vh;
   background: #fce3fe;
-  padding-top: 100px;
+  padding: 70px 0px;
 }
 
 .LoginSignup-container {
   width: 580px;
-  height: 600px;
   background: white;
   margin: auto;
   padding: 40px 60px;
+  
 }
 
 .LoginSignup-container h1 {
@@ -34,7 +33,7 @@
 }
 
 .LoginSignup-Container button {
-  width: 580px;
+  width: 100%;
   height: 72px;
   color: white;
   background: #ff4141;
@@ -64,4 +63,22 @@
   color: #5c5c5c;
   font-size: 18px;
   font-weight: 500;
+}
+@media only screen and ( max-width: 600px){
+  .LoginSignup-container {
+    width: 90%;
+    background: white;
+    margin: auto;
+    padding: 40px 20px;
+    
+  }
+  .LoginSignup-Fields input {
+    height: 60px;
+    width: 100%;
+    
+  } 
+  .LoginSignup-Container button {
+    height: 60px;
+    
+  }
 }

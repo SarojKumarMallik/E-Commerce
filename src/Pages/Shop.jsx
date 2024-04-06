@@ -8,11 +8,11 @@ import Newsletter from '../Components/Newsletter/Newsletter'
 const Shop = () => {
     return (
         <div>
-            <Hero />
+           <Hero /> 
             <Popular />
-            <Offers />
-            <NewCollection />
-            <Newsletter />
+             <Offers />
+            <NewCollection /> 
+             <Newsletter />
         </div>
     )
 }
